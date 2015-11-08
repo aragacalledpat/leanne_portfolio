@@ -1,7 +1,10 @@
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+$fa-font-path: "../bower_components/font-awesome/fonts";
+
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
 
 .browsehappy {
@@ -76,3 +79,24 @@ body {
 .img-padding {
     padding-bottom: 15px;
 }
+
+.video-padding {
+    margin-top : 50px;    
+}
+
+.leanne-links a{
+    font-size: 18px;
+    color: gainsboro;
+
+    .active {
+        background-color: inherit;
+    }
+    &:hover, &:active {
+        background-color: inherit;
+    }
+    
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: inherit;
+}
+
