@@ -71,7 +71,7 @@ body {
 
 //Andrew styles
 .hands {
-    background : #fff url(https://s3.amazonaws.com/andrewpappas/Informationpagebackground.jpg) no-repeat;
+    background : #fff url(https://s3.amazonaws.com/andrewpappas/Informationpagebackground.jpg) repeat-y;
     background-size : 100%;
 }
 
@@ -99,3 +99,7 @@ body {
     background-color: inherit;
 }
 
+.lead {
+    background-color : #fff;  
+    opacity : .95;
+}
