@@ -85,7 +85,7 @@ body {
 
 .leanne-links a{
     font-size: 18px;
-    color: gainsboro;
+    color: grey;
 
     .active {
         background-color: inherit;
@@ -124,4 +124,11 @@ a:hover, a:focus {
 
 .dark {
     background: #000;
+}
+
+.header {
+    border-bottom : none;
+}
+.leanne-name {
+    color: white;
 }
