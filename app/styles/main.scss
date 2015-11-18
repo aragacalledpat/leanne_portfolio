@@ -6,6 +6,14 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    }
+p, div {
+    font-family: 'Josefin Sans', sans-serif;
+    }
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
