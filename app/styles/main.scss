@@ -91,6 +91,23 @@ body {
     margin-top : 50px;    
 }
 
+.leanne-nav {
+    text-align: center;
+}
+
+.leanne-links {
+
+    float: none;
+    text-align:center;
+    margin : 2px auto;
+    padding : 0;
+
+    li {
+        display: inline;
+        text-align:center;
+    }
+}
+
 .leanne-links a{
     font-size: 15px;
     color: grey;
@@ -104,6 +121,9 @@ body {
     }
     
 }
+
+
+
 
 .nav > li > a:hover, .nav > li > a:focus {
     background-color: inherit;
@@ -142,3 +162,5 @@ a:hover, a:focus {
     color: #F2036F;
     text-transform: uppercase;
 }
+
+
