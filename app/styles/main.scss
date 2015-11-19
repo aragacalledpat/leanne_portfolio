@@ -8,10 +8,10 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
     }
 p, div {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
     }
 
 .browsehappy {
@@ -92,8 +92,9 @@ body {
 }
 
 .leanne-links a{
-    font-size: 18px;
+    font-size: 15px;
     color: grey;
+    text-transform: uppercase;
 
     .active {
         background-color: inherit;
@@ -138,5 +139,6 @@ a:hover, a:focus {
     border-bottom : none;
 }
 .leanne-name a{
-    color: #7a9460;
+    color: #F2036F;
+    text-transform: uppercase;
 }
