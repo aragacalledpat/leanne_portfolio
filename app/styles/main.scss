@@ -118,7 +118,7 @@ a:hover, a:focus {
 
 .lead {
     background-color : #fff;  
-    opacity : .95;
+    opacity : .90;
 }
 .insta {
     font-size: 24px;
@@ -141,4 +141,9 @@ a:hover, a:focus {
 .leanne-name a{
     color: #F2036F;
     text-transform: uppercase;
+
+    &:hover{
+        color: white;
+    }
+
 }
