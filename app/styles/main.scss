@@ -122,7 +122,7 @@ a:hover, a:focus {
 }
 .insta {
     font-size: 24px;
-    color: gainsboro;
+    color: #F2036F;
     .active {
         background-color: inherit;
     }
@@ -130,6 +130,10 @@ a:hover, a:focus {
         background-color: inherit;
     }
 }
+.fa, .email-address {
+    color : white;
+}
+
 
 .dark {
     background: #000;
@@ -148,7 +152,7 @@ a:hover, a:focus {
 
 }
 .commission {
-    color : white;
+    color : #4C4c4c;
     font-size:16px; 
 }
 
