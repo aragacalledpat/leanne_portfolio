@@ -132,6 +132,7 @@ a:hover, a:focus {
 }
 .fa, .email-address {
     color : white;
+    letter-spacing: .05em;
 }
 
 
@@ -145,6 +146,7 @@ a:hover, a:focus {
 .leanne-name a{
     color: #F2036F;
     text-transform: uppercase;
+    letter-spacing: .05em; 
 
     &:hover{
         color: white;
@@ -154,5 +156,6 @@ a:hover, a:focus {
 .commission {
     color : #4C4c4c;
     font-size:16px; 
+    margin-bottom:35px;
 }
 
